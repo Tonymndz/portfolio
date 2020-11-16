@@ -1,0 +1,39 @@
+.Skills {
+  height: 185px;
+  background: #151616;
+  color: white;
+}
+
+.FlexSpace {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.Skills h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  text-decoration-line: underline;
+  color: #FFD152;
+}
+
+.Skills h2 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 38px;
+  text-decoration-line: underline;
+  color: #EFF7F6;
+}
+
+.FlexClamp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+}

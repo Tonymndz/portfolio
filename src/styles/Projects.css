@@ -1,0 +1,128 @@
+.Projects {
+  color: white;
+  background-color: #181818;;
+}
+
+.Projects h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 56px;
+  text-decoration-line: underline; 
+  color: #FFD152;
+  padding-bottom: 10px;
+}
+
+.FlexSplit {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.LeftSide {
+  flex: 0 0 50%;
+  padding-left: 30px;
+  margin-right: 10px;
+}
+
+.LeftSide h2 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+}
+
+.BackImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-image: url("../imgs/BBPS.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 466px;
+  width: 685px;
+  margin: auto;
+  padding: auto;
+}
+
+#Demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+  text-decoration: none;
+  background-color: #2285E1;
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#ViewSrc span {
+  margin-left: 10px;
+}
+
+#ViewSrc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 170px;
+  height: 41px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.RightSide {
+  margin-left: 20px;
+}
+
+.RightSide h3 {
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.RightSide p {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E2E8F0;
+}
+
+.RightSide li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E2E8F0;
+}
+
+.SplitLists {
+  display: flex;
+}
+
+#firstList {
+  padding-right: 55px;
+}

@@ -1,0 +1,64 @@
+.AboutMe {
+  background-color: #151616;
+  text-align: center;
+}
+
+.AboutMe h1 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 56px;
+  text-decoration-line: underline;
+  color: #FFD152;
+}
+
+.AboutMe h2 {
+  width: 944px;
+  text-align: left;
+  margin: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 84px;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+}
+
+.AboutMe p {
+  margin: auto;
+  padding: auto;
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  width: 948px;
+  line-height: 159.5%;
+  color: #E2E8F0;
+  padding-bottom: 30px;
+}
+
+.FlexRightBottom {
+  text-align: center;
+}
+
+
+.FlexRightBottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 16px;
+  padding-bottom: 7px;
+}
+
+.FlexContain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ResumeLogo {
+  padding-left: 10px;
+  padding-right: 10px;
+}
