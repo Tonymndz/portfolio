@@ -43,11 +43,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-image: url("../imgs/BBPS.png");
+  background-image:url("../imgs/BBPS.gif");
   background-size: auto;
   background-repeat: no-repeat;
   height: 466px;
-  width: 685px;
   margin: auto;
   padding: auto;
 }

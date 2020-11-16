@@ -54,3 +54,9 @@
 .FrontPage a {
   text-decoration: none;
 }
+
+.FrontPage a:hover {
+  color: rgb(52, 197, 207);
+  text-decoration: underline;
+  transition: 0.4s;
+}
