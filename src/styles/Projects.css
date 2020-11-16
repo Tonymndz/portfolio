@@ -1,6 +1,139 @@
+@media only screen and (max-width: 799px) { /* Phone Design */
 .Projects {
   color: white;
-  background-color: #181818;;
+  background-color: #131313;
+}
+
+.Projects h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 56px;
+  text-decoration-line: underline; 
+  color: #FFD152;
+  padding-bottom: 10px;
+}
+
+.FlexSplit {
+  display: flex;
+  flex-direction: column; /**/
+  padding-bottom: 60px;
+}
+
+.LeftSide {
+  padding-left: 10px; /**/
+  margin-right: 10px;
+  margin: auto;
+  padding: auto;
+}
+
+.LeftSide h2 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding-bottom: 12px;
+}
+
+.BackImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-image:url("../imgs/BBPSMobile.gif"); /**/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 466px;
+  margin: auto;
+  padding: auto;
+}
+
+#Demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+  text-decoration: none;
+  background-color: #3e94e6;
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#ViewSrc span {
+  margin-left: 10px;
+}
+
+#ViewSrc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 170px;
+  height: 41px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.RightSide {
+  margin-left: 35px;
+  /**/
+}
+
+.RightSide h3 {
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  color: #55b0ec;
+}
+
+.RightSide p {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #E2E8F0;
+}
+
+.RightSide li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #E2E8F0;
+}
+
+.SplitLists {
+  display: flex;
+}
+
+#firstList {
+  padding-right: 25px; /**/
+}
+}
+
+@media only screen and (min-width: 800px) { /* PC Design */
+.Projects {
+  color: white;
+  background-color: #131313;;
 }
 
 .Projects h1 {
@@ -36,7 +169,7 @@
   line-height: 56px;
   text-decoration-line: underline;
   color: #FFFFFF;
-  padding-bottom: 5px;
+  padding-bottom: 12px;
 }
 
 .BackImg {
@@ -60,7 +193,7 @@
   width: 150px;
   height: 35px;
   text-decoration: none;
-  background-color: #2285E1;
+  background-color: #3e94e6;
   color: white;
   border-radius: 30px;
   margin-bottom: 10px;
@@ -88,7 +221,7 @@
 }
 
 .RightSide {
-  margin-left: 20px;
+  margin-left: 35px;
 }
 
 .RightSide h3 {
@@ -98,14 +231,14 @@
   font-weight: bold;
   font-size: 28px;
   line-height: 42px;
-  color: #ffffff;
+  color: #55b0ec;
 }
 
 .RightSide p {
   margin-top: 8px;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   color: #E2E8F0;
 }
@@ -113,7 +246,7 @@
 .RightSide li {
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   color: #E2E8F0;
 }
@@ -124,4 +257,5 @@
 
 #firstList {
   padding-right: 55px;
+}
 }

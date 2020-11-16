@@ -1,6 +1,8 @@
+@media only screen and (max-width: 799px) { /* Phone Design */
 .AboutMe {
   background-color: #151616;
   text-align: center;
+  padding-left: 10px;
 }
 
 .AboutMe h1 {
@@ -11,20 +13,20 @@
   line-height: 56px;
   text-decoration-line: underline;
   color: #FFD152;
+  padding-top: 5px;
 }
 
 .AboutMe h2 {
-  width: 944px;
   text-align: left;
   margin: auto;
   font-style: normal;
   font-weight: 600;
-  font-size: 57px;
-  line-height: 84px;
+  font-size: 36px; /**/
+  line-height: 40px;
   color: #FFFFFF;
   padding-top: 15px;
   padding-bottom: 10px;
-  padding-left: 45px;
+  /* padding-left: 10px; */
 }
 
 .AboutMe p {
@@ -34,7 +36,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  width: 948px;
   line-height: 159.5%;
   color: #E2E8F0;
   padding-bottom: 30px;
@@ -61,4 +62,85 @@
 .ResumeLogo {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.AboutMe img:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+}
+
+@media only screen and (min-width: 800px) { /* PC Design */
+  .AboutMe {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #151616;
+    text-align: center;
+  }
+  
+  .AboutMe h1 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+    text-decoration-line: underline;
+    color: #FFD152;
+  }
+  
+  .AboutMe h2 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 84px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+  }
+  
+  .AboutMe p {
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 159.5%;
+    color: #E2E8F0;
+    padding-bottom: 30px;
+  }
+  
+  .FlexCentering {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .FlexRightBottom {
+    text-align: center;
+  }
+  
+
+  .FlexRightBottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 16px;
+    padding-bottom: 7px;
+  }
+  
+  .FlexContain {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ResumeLogo {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .AboutMe img:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+  }
 }

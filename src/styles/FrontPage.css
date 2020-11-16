@@ -1,3 +1,4 @@
+@media only screen and (max-width: 799px) { /* Phone Design */
 .FrontPage {
   display: flex;
   flex-direction: column;
@@ -56,7 +57,87 @@
 }
 
 .FrontPage a:hover {
-  color: rgb(52, 197, 207);
+  transform: rotate(20deg);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
   text-decoration: underline;
   transition: 0.4s;
+}
+
+.FrontPage img:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+}
+
+@media only screen and (min-width: 800px) { /* PC Design */
+.FrontPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../imgs/City.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 400px;
+  width: auto;
+  padding-top: 50px;
+}
+
+.FlexCenter {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.Resume {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.FrontPage h1 {
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  color: #EDEDED;
+}
+
+.FrontPage h2 {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 200;
+  font-size: 38px;
+  line-height: 56px;
+  color: #A4ABAB;
+}
+
+.FrontPage span {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 17px;
+  line-height: 23px;
+  color: #EDEDED;
+}
+
+.FrontPage a {
+  text-decoration: none;
+}
+
+.FrontPage a:hover {
+  transform: rotate(20deg);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+.FrontPage img:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
 }

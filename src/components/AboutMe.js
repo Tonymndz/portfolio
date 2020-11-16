@@ -9,11 +9,13 @@ function AboutMe() {
   return <div className="AboutMe">
     <h1>About Me</h1>
     <h2>Hi, I'm Tony Mendez</h2>
+    <div className="FlexCentering">
     <p>
       I'm a self-taught web developer who likes programming and creating things. 
       I enjoy learning new technologies and libaries to expand my knowledge in web
       development and to figure out many ways to create many things.
     </p>
+    </div>
     <div className="FlexRightBottom">
     <div>
         <a href="https://github.com/Tonymndz" target="_blank" >
