@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Frontend/static/css/main.cf4548c5.chunk.css",
+    "main.css": "/Portfolio-Frontend/static/css/main.8377ccf3.chunk.css",
     "main.js": "/Portfolio-Frontend/static/js/main.6ec40b2a.chunk.js",
     "main.js.map": "/Portfolio-Frontend/static/js/main.6ec40b2a.chunk.js.map",
     "runtime-main.js": "/Portfolio-Frontend/static/js/runtime-main.b547b45b.js",
@@ -10,7 +10,7 @@
     "static/js/3.096e5de9.chunk.js": "/Portfolio-Frontend/static/js/3.096e5de9.chunk.js",
     "static/js/3.096e5de9.chunk.js.map": "/Portfolio-Frontend/static/js/3.096e5de9.chunk.js.map",
     "index.html": "/Portfolio-Frontend/index.html",
-    "static/css/main.cf4548c5.chunk.css.map": "/Portfolio-Frontend/static/css/main.cf4548c5.chunk.css.map",
+    "static/css/main.8377ccf3.chunk.css.map": "/Portfolio-Frontend/static/css/main.8377ccf3.chunk.css.map",
     "static/js/2.cd198e35.chunk.js.LICENSE.txt": "/Portfolio-Frontend/static/js/2.cd198e35.chunk.js.LICENSE.txt",
     "static/media/Projects.css": "/Portfolio-Frontend/static/media/BBPSMobile.cbbd8a7c.gif",
     "static/media/FrontPage.css": "/Portfolio-Frontend/static/media/City.f5af0b0e.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.b547b45b.js",
     "static/js/2.cd198e35.chunk.js",
-    "static/css/main.cf4548c5.chunk.css",
+    "static/css/main.8377ccf3.chunk.css",
     "static/js/main.6ec40b2a.chunk.js"
   ]
 }
