@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Frontend/static/css/main.3f0abf8f.chunk.css",
+    "main.css": "/Portfolio-Frontend/static/css/main.d4b90e10.chunk.css",
     "main.js": "/Portfolio-Frontend/static/js/main.73b3ab04.chunk.js",
     "main.js.map": "/Portfolio-Frontend/static/js/main.73b3ab04.chunk.js.map",
     "runtime-main.js": "/Portfolio-Frontend/static/js/runtime-main.0851eb75.js",
@@ -10,16 +10,16 @@
     "static/js/3.936ed7c1.chunk.js": "/Portfolio-Frontend/static/js/3.936ed7c1.chunk.js",
     "static/js/3.936ed7c1.chunk.js.map": "/Portfolio-Frontend/static/js/3.936ed7c1.chunk.js.map",
     "index.html": "/Portfolio-Frontend/index.html",
-    "static/css/main.3f0abf8f.chunk.css.map": "/Portfolio-Frontend/static/css/main.3f0abf8f.chunk.css.map",
+    "static/css/main.d4b90e10.chunk.css.map": "/Portfolio-Frontend/static/css/main.d4b90e10.chunk.css.map",
     "static/js/2.cd198e35.chunk.js.LICENSE.txt": "/Portfolio-Frontend/static/js/2.cd198e35.chunk.js.LICENSE.txt",
     "static/media/Projects.css": "/Portfolio-Frontend/static/media/BBPSMobile.cbbd8a7c.gif",
     "static/media/FrontPage.css": "/Portfolio-Frontend/static/media/City.f5af0b0e.png",
-    "static/media/WorkExperience.css": "/Portfolio-Frontend/static/media/trychatsWide.877ad72c.gif"
+    "static/media/WorkExperience.css": "/Portfolio-Frontend/static/media/trychatsWide.37b63997.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.0851eb75.js",
     "static/js/2.cd198e35.chunk.js",
-    "static/css/main.3f0abf8f.chunk.css",
+    "static/css/main.d4b90e10.chunk.css",
     "static/js/main.73b3ab04.chunk.js"
   ]
 }
