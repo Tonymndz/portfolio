@@ -1,0 +1,365 @@
+@media only screen and (max-width: 799px) { /* Phone Design */
+  .WorkExperience {
+    color: white;
+    background-color: #161717;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .WorkExperience h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+    text-decoration-line: underline; 
+    color: #FFD152;
+    padding-bottom: 10px;
+  }
+  
+  .FlexSplit {
+    display: flex;
+    flex-direction: column; /**/
+    padding-bottom: 60px;
+  }
+  
+  .LeftSide {
+    padding-left: 10px; /**/
+    margin-right: 10px;
+    margin: auto;
+    padding: auto;
+  }
+  
+  .LeftSide h2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+  }
+  
+  .WorkExperience .BackImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image:url("../imgs/trychatsSmall.gif");
+    height: 480px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+  }
+
+  .WorkExperience .BackImgGoOff {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image:url("../imgs/GoOffMobile.png");
+    height: 480px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+  }
+  
+  #Demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    background-color: rgb(185, 19, 69);
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  #ViewSrc span {
+    margin-left: 10px;
+  }
+  
+  #ViewSrc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 170px;
+    height: 41px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .RightSide h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    text-decoration-line: none;
+    color: #fff242;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .RightSide {
+    margin-left: 35px;
+  }
+  
+  .RightSide h3 {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #55b0ec;
+  }
+  
+  .RightSide p {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #E2E8F0;
+  }
+  
+  .RightSide li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #E2E8F0;
+  }
+
+  .WorkExperience .RightSide h3 {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #e2ff40;
+  }
+
+  .WorkExperience .RightSide a {
+    color: #538dff;
+    text-decoration: underline;
+    transition: .4s;
+  }
+
+  .WorkExperience .RightSide a:hover {
+    color: rgb(83, 229, 255);
+  }
+  
+  .SplitLists {
+    display: flex;
+  }
+  
+  #firstList {
+    padding-right: 25px; /**/
+  }
+
+  .WorkExperience .GoOff h1 { 
+    color: #42ff96;
+  }
+
+  .WorkExperience .GoOff h3 {
+    color: #28c777;
+  }
+
+  }
+  
+  @media only screen and (min-width: 800px) { /* PC Design */
+  .WorkExperience {
+    color: white;
+    background: #161717;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .WorkExperience h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+    text-decoration-line: underline; 
+    color: #FFD152;
+    padding-bottom: 10px;
+  }
+
+  .RightSide h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    text-decoration-line: none;
+    color: #fff242;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .FlexSplit {
+    display: flex;
+    justify-content: center; /**/
+    padding-bottom: 60px;
+    max-width: 1903px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .LeftSide {
+    flex: 0 0 50%;
+    padding-left: 30px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .LeftSide h2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+  }
+  
+  .WorkExperience .BackImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image:url("../imgs/trychatsWide.gif");
+    height: 699px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+  }
+
+  .WorkExperience .BackImgGoOff {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image:url("../imgs/GoOffPC.png");
+    height: 699px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+  }
+  
+  .WorkExperience #Demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    background-color: rgb(53, 209, 87);
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  #ViewSrc span {
+    margin-left: 10px;
+  }
+  
+  #ViewSrc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 170px;
+    height: 41px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .RightSide {
+    margin-left: 35px;
+  }
+  
+  .WorkExperience .RightSide h3 {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #e2ff40;
+  }
+  
+  .WorkExperience .RightSide p {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #E2E8F0;
+    padding-right: 100px;
+  }
+  
+  .RightSide li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #E2E8F0;
+  }
+
+  .WorkExperience .RightSide a {
+    color: #538dff;
+    text-decoration: underline;
+    transition: .4s;
+  }
+
+  .WorkExperience .RightSide a:hover {
+    color: rgb(83, 229, 255);
+  }
+  
+  .SplitLists {
+    display: flex;
+  }
+  
+  #firstList {
+    padding-right: 55px;
+  }
+
+  .WorkExperience .GoOff h1 { 
+    color: #42ff96;
+  }
+
+  .WorkExperience .GoOff h3 {
+    color: #28c777;
+  }
+
+}
+  

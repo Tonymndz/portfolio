@@ -12,23 +12,23 @@ function AboutMe() {
     <div className="FlexCentering">
     <p>
       I'm a self-taught web developer who likes programming and creating things. 
-      I enjoy learning new technologies and libaries to expand my knowledge in web
-      development and to figure out many ways to create many things.
+      I enjoy learning new technologies and libraries to expand my knowledge in web
+      development to figure out many ways to create many things.
     </p>
     </div>
     <div className="FlexRightBottom">
     <div>
-        <a href="https://github.com/Tonymndz" target="_blank" >
+        <a href="https://github.com/Tonymndz" target="_blank" rel="noopener noreferrer">
           <img src={Github} alt="Github Icon" width="33" height="33"/>
         </a>
       </div>
       <div className="ResumeLogo">
-        <a href="https://docs.google.com/document/d/1Cc60sjvCFzxi_O11bJxPgVDYOKvGKzkLiXig0yO5SSw/edit#" target="_blank" >
+        <a href="https://docs.google.com/document/d/1Cc60sjvCFzxi_O11bJxPgVDYOKvGKzkLiXig0yO5SSw/edit#" target="_blank" rel="noopener noreferrer">
           <img src={Resume} alt="Resume Icon" width="33" height="33"/>
         </a>
       </div>
       <div>
-        <a href="https://github.com/Tonymndz" target="_blank" >
+        <a href="mailto:Tonymndz1141@gmail.com" target="_blank" rel="noopener noreferrer">
           <img src={Email} alt="Email Icon" width="33" height="33"/>
         </a>
       </div>

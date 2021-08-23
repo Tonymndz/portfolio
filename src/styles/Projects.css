@@ -1,7 +1,9 @@
 @media only screen and (max-width: 799px) { /* Phone Design */
 .Projects {
   color: white;
-  background-color: #131313;
+  background-color: #161717;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .Projects h1 {
@@ -41,17 +43,20 @@
   padding-bottom: 12px;
 }
 
-.BackImg {
+.BackgroundGIF {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-image:url("../imgs/BBPSMobile.gif"); /**/
   background-size: cover;
   background-repeat: no-repeat;
   height: 466px;
   margin: auto;
   padding: auto;
 }
+
+#PhoneGIF { background-image:url("../imgs/BBPSMobile.gif"); }
+#DiscordGIF { background-image:url("../imgs/DiscordCloneSmall.gif"); }
+#StockGIF { background-image:url("../imgs/StockScreenerSmall.gif"); }
 
 #Demo {
   display: flex;
@@ -62,7 +67,7 @@
   width: 150px;
   height: 35px;
   text-decoration: none;
-  background-color: #3e94e6;
+  background-color: #35d157;
   color: white;
   border-radius: 30px;
   margin-bottom: 10px;
@@ -133,7 +138,9 @@
 @media only screen and (min-width: 800px) { /* PC Design */
 .Projects {
   color: white;
-  background-color: #131313;;
+  background: #121313;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .Projects h1 {
@@ -150,14 +157,19 @@
 
 .FlexSplit {
   display: flex;
-  justify-content: center;
+  justify-content: center; /**/
   padding-bottom: 60px;
+  max-width: 1903px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .LeftSide {
   flex: 0 0 50%;
   padding-left: 30px;
   margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .LeftSide h2 {
@@ -172,17 +184,20 @@
   padding-bottom: 12px;
 }
 
-.BackImg {
+.BackgroundGIF {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-image:url("../imgs/BBPS.gif");
   background-size: auto;
   background-repeat: no-repeat;
-  height: 466px;
+  height: 493px;
   margin: auto;
   padding: auto;
 }
+
+#PhoneGIF { background-image:url("../imgs/BBPS.gif"); }
+#DiscordGIF { background-image:url("../imgs/DiscordCloneBig.gif"); }
+#StockGIF { background-image:url("../imgs/StockScreenerBig.gif"); }
 
 #Demo {
   display: flex;
@@ -193,7 +208,7 @@
   width: 150px;
   height: 35px;
   text-decoration: none;
-  background-color: #3e94e6;
+  background-color: #35d157;
   color: white;
   border-radius: 30px;
   margin-bottom: 10px;
@@ -241,6 +256,7 @@
   font-size: 22px;
   line-height: 28px;
   color: #E2E8F0;
+  padding-right: 100px;
 }
 
 .RightSide li {

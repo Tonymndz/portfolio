@@ -1,8 +1,10 @@
 @media only screen and (max-width: 799px) { /* Phone Design */
 .AboutMe {
-  background-color: #151616;
+  background-color: #161717;
   text-align: center;
   padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .AboutMe h1 {
@@ -17,7 +19,7 @@
 }
 
 .AboutMe h2 {
-  text-align: left;
+  text-align: center;
   margin: auto;
   font-style: normal;
   font-weight: 600;
@@ -26,13 +28,14 @@
   color: #FFFFFF;
   padding-top: 15px;
   padding-bottom: 10px;
-  /* padding-left: 10px; */
+  padding-left: 10px;
 }
 
 .AboutMe p {
+  text-align: center;
   margin: auto;
   padding: auto;
-  text-align: left;
+  text-align: center;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -74,8 +77,10 @@
   .AboutMe {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #151616;
+    background-color: #161717;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .AboutMe h1 {
@@ -119,7 +124,6 @@
   .FlexRightBottom {
     text-align: center;
   }
-  
 
   .FlexRightBottom {
     display: flex;

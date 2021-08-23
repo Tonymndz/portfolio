@@ -1,8 +1,9 @@
 @media only screen and (max-width: 799px) { /* Phone Design */
 .Skills {
-  background: #151616;
+  background: #121313;
   color: white;
-  padding-bottom: 12px;
+  padding-top: 2px;
+  padding-bottom: 18px;
 }
 
 .FlexSpace {
@@ -46,8 +47,9 @@
 
 @media only screen and (min-width: 800px) { /* PC Design */
 .Skills {
-  background: #151616;
+  background: #121313;
   color: white;
+  padding-top: 2px;
   padding-bottom: 20px;
 }
 
@@ -59,14 +61,32 @@
   padding-right: 2%;
 }
 
-@media only screen and (min-width: 1100px) {
-.FlexSpace {
+.FlexClamp {
   display: flex;
   justify-content: space-between;
-  text-align: center;
-  padding-left: 8%;
-  padding-right: 8%;
-}}
+  align-items: center;
+  width: 375px;
+}
+
+@media only screen and (min-width: 1100px) {
+  .FlexSpace {
+    max-width: 1903px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .FlexClamp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+  }
+}
 
 
 .Skills h1 {
@@ -86,12 +106,5 @@
   font-size: 38px;
   text-decoration-line: underline;
   color: #EFF7F6;
-}
-
-.FlexClamp {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 375px;
 }
 }
