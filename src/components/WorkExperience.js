@@ -10,7 +10,7 @@ function WorkExperience() {
         <h2>Go Off!</h2>
         <div className="BackImgGoOff">
           <a id="Demo" target="_blank" rel="noopener noreferrer" href="https://go-off.co/">Live Site</a>
-          <a id="ViewSrc" target="_blank" href="##">
+          <a id="ViewSrc" href="/">
             <img src={Github} alt="Github Logo" widht="33" height="33" />
             <span>Closed Source</span>
           </a>

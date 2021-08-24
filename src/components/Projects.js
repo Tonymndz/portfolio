@@ -4,12 +4,12 @@ import '../styles/Projects.css';
 
 const ProjectsInfo = [
   {
-    title: 'Discord Clone Site', 
+    title: 'Mini-Discord Clone Site', 
     goal: 'The goal of the Discord Clone was to expand more into using Firebase, Learning to how to implement channel/messaging/ features all while using and gaining more knowledge in React.', 
     features: ['Channels', 'Emojis', 'Guest Login', 'Messaging', 'GIFS'], 
     technologies: ['React', 'FireBase', 'Material ui', 'Axios', 'HTML/CSS', 'JavaScript', 'Redux'], 
-    demoLink: 'https://tonymndz.github.io/discord-clone/', 
-    codeSrcLink: 'https://github.com/Tonymndz/discord-clone',
+    demoLink: 'https://tonymndz.github.io/mini-discord-clone/', 
+    codeSrcLink: 'https://github.com/Tonymndz/mini-discord-clone',
     CSSIDGIF: 'DiscordGIF',
     h3Color: '#31ffec',
   },
@@ -28,8 +28,8 @@ const ProjectsInfo = [
     goal: 'The goal of this project was to expand my knowledge and experience in MongoDB, Redux, and React while creating a website to let people know that these great budget phone options exist!', 
     features: ['Register account', 'Account login', 'Send comments'], 
     technologies: ['React', 'NodeJS', 'TypeScript', 'HTML/CSS', 'JavaScript', 'NodeJS', 'Socket.io', 'Express'], 
-    demoLink: 'http://under-120.bestbudgetphones.technology/', 
-    codeSrcLink: 'https://github.com/Tonymndz/Budget-Phones-Under120-Frontend',
+    demoLink: 'https://tonymndz.github.io/budget-phones/', 
+    codeSrcLink: 'https://github.com/Tonymndz/budget-phones',
     CSSIDGIF: 'PhoneGIF',
     h3Color: '#55b0ec',
   }
