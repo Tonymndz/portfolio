@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4334cfa9.chunk.css",
-    "main.js": "/portfolio/static/js/main.125413c0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.125413c0.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.509b4a60.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.509b4a60.js.map",
-    "static/js/2.ba97cf89.chunk.js": "/portfolio/static/js/2.ba97cf89.chunk.js",
-    "static/js/2.ba97cf89.chunk.js.map": "/portfolio/static/js/2.ba97cf89.chunk.js.map",
-    "static/js/3.99308e2e.chunk.js": "/portfolio/static/js/3.99308e2e.chunk.js",
-    "static/js/3.99308e2e.chunk.js.map": "/portfolio/static/js/3.99308e2e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d3349dc3.chunk.css",
+    "main.js": "/portfolio/static/js/main.c89f00bc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c89f00bc.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2e7374b0.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2e7374b0.js.map",
+    "static/js/2.eb17c847.chunk.js": "/portfolio/static/js/2.eb17c847.chunk.js",
+    "static/js/2.eb17c847.chunk.js.map": "/portfolio/static/js/2.eb17c847.chunk.js.map",
+    "static/js/3.655b08a1.chunk.js": "/portfolio/static/js/3.655b08a1.chunk.js",
+    "static/js/3.655b08a1.chunk.js.map": "/portfolio/static/js/3.655b08a1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.4334cfa9.chunk.css.map": "/portfolio/static/css/main.4334cfa9.chunk.css.map",
-    "static/js/2.ba97cf89.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ba97cf89.chunk.js.LICENSE.txt",
+    "static/css/main.d3349dc3.chunk.css.map": "/portfolio/static/css/main.d3349dc3.chunk.css.map",
+    "static/js/2.eb17c847.chunk.js.LICENSE.txt": "/portfolio/static/js/2.eb17c847.chunk.js.LICENSE.txt",
     "static/media/Projects.css": "/portfolio/static/media/StockScreenerSmall.ce315134.gif",
     "static/media/FrontPage.css": "/portfolio/static/media/City.f5af0b0e.png",
     "static/media/WorkExperience.css": "/portfolio/static/media/trychatsWide.37b63997.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.509b4a60.js",
-    "static/js/2.ba97cf89.chunk.js",
-    "static/css/main.4334cfa9.chunk.css",
-    "static/js/main.125413c0.chunk.js"
+    "static/js/runtime-main.2e7374b0.js",
+    "static/js/2.eb17c847.chunk.js",
+    "static/css/main.d3349dc3.chunk.css",
+    "static/js/main.c89f00bc.chunk.js"
   ]
 }
