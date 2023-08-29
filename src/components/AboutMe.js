@@ -11,14 +11,12 @@ function AboutMe() {
     <h2>Hi, I'm Tony Mendez</h2>
     <div className="FlexCentering">
     <p>
-      I'm a self-taught web developer who likes programming and creating things. 
-      I enjoy learning new technologies and libraries to expand my knowledge in web
-      development to figure out many ways to create many things.
+      I'm a developer who likes learning and creating things. I enjoy learning new technologies and libraries to expand my skills to figure out many ways to create many things.
     </p>
     </div>
     <div className="FlexRightBottom">
     <div>
-        <a href="https://github.com/Tonymndz" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Tonymndz/" target="_blank" rel="noopener noreferrer">
           <img src={Github} alt="Github Icon" width="33" height="33"/>
         </a>
       </div>

@@ -11,7 +11,7 @@ function FrontPage() {
     <h2>Front-end {'&'} Back-end Developer</h2>
     <div className="FlexCenter">
       <div>
-        <a href="https://github.com/Tonymndz?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Tonymndz/" target="_blank" rel="noopener noreferrer">
           <img src={Github} alt="Github Icon"/><br/>
           <span>Github</span>
         </a>

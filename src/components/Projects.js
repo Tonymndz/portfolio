@@ -5,7 +5,7 @@ import '../styles/Projects.css';
 const ProjectsInfo = [
   {
     title: 'Mini-Discord Clone Site', 
-    goal: 'The goal of the Discord Clone was to expand more into using Firebase, Learning to how to implement channel/messaging/ features all while using and gaining more knowledge in React.', 
+    goal: 'My project goal was to leverage Firebase for channel and messaging features, while advancing my React skills. Through creating a Discord Clone, I aimed to grasp Firebase integration for real-time databases. Implementing channel management, messaging, emojis, and GIFs honed my skills in dynamic user interfaces. This journey expanded my grasp of React, Firebase, Redux, and web technologies like HTML, CSS, and JavaScript, boosting my ability to craft modern web applications.', 
     features: ['Channels', 'Emojis', 'Guest Login', 'Messaging', 'GIFS'], 
     technologies: ['React', 'FireBase', 'Material ui', 'Axios', 'HTML/CSS', 'JavaScript', 'Redux'], 
     demoLink: 'https://tonymndz.github.io/mini-discord-clone/', 
@@ -15,9 +15,9 @@ const ProjectsInfo = [
   },
   {
     title: 'Stock Screener Site', 
-    goal: 'The goal of the Stocker Screener was to test out tailwind, React Query, and show off my current React skills with a project that would look cool.', 
+    goal: 'The project aimed to showcase my React skills by implementing a Stock Screener with features like searchable stocks, informative history graphs, stock ratings, and trending stock highlights. I leveraged Tailwind for styling, React Query for APIs data management, and React for UI development, resulting in a visually appealing  application that shows users an appealing platform to explore stock data.', 
     features: ['Seachable Stocks', 'Stock History Graph', 'Stock Rating', 'Trending Stocks'], 
-    technologies: ['Tailwind', 'React', 'Axios', 'date-fns', 'HTML/CSS', 'JavaScript', 'Highcharts', 'React-Query', 'Material-ui'], 
+    technologies: ['Tailwind', 'React', 'Axios', 'Date-fns', 'HTML/CSS', 'JavaScript', 'Highcharts', 'React-Query', 'Material-ui'], 
     demoLink: 'https://tonymndz.github.io/stock-screener/', 
     codeSrcLink: 'https://github.com/Tonymndz/stock-screener',
     CSSIDGIF: 'StockGIF',
@@ -25,8 +25,8 @@ const ProjectsInfo = [
   },
   {
     title: 'Best Budget Phones Sites', 
-    goal: 'The goal of this project was to expand my knowledge and experience in MongoDB, Redux, and React while creating a website to let people know that these great budget phone options exist!', 
-    features: ['Register account', 'Account login', 'Send comments'], 
+    goal: "The project's goal was twofold: to expand my expertise in MongoDB, Redux, and React, while creating a useful website. I was also looking for a new phone options due to battery drain and performance problems. I recognized the project's relevance and seized the chance to merge my interests. And so, I embarked on the longest research journey of discovering so many phones known to man, with their fluctuating prices, and varying specifications.", 
+    features: ['User registration', 'Account login', 'Sending comments'], 
     technologies: ['React', 'NodeJS', 'TypeScript', 'HTML/CSS', 'JavaScript', 'NodeJS', 'Socket.io', 'Express'], 
     demoLink: 'https://tonymndz.github.io/budget-phones/', 
     codeSrcLink: 'https://github.com/Tonymndz/budget-phones',
