@@ -17,7 +17,7 @@ function FrontPage() {
         </a>
       </div>
       <div className="Resume">
-        <a href="https://docs.google.com/document/d/1Cc60sjvCFzxi_O11bJxPgVDYOKvGKzkLiXig0yO5SSw/edit#" target="_blank" rel="noopener noreferrer">
+        <a href="https://tonymndz.github.io/portfolio/Tony's%20Resume.pdf" target="_blank" rel="noopener noreferrer">
           <img src={Resume} alt="Resume Icon"/><br/>
           <span>Resume</span>
         </a>
