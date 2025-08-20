@@ -20,6 +20,7 @@ export default App;
 
 
 /*
+Lorem Ipsum
 
 <FrontPage />
 <Skills />
